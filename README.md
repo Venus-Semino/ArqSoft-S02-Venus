@@ -5,3 +5,9 @@ En este juego se encuentra una clase dios en dónde no tiene una estructura, por
 - SRP: la clase juego implementa más de una responsabilidad.
 - DIP: las palabras está en el código inicial, haciendolo más dificil.
 - OCP: hay que modificar cada vez que se intenta agregar un nuevo juego.
+
+Después se agragpo el juego Viborita, para esto se agregaron las siguientes clases:
+- IMotorViborita.cs
+- IMotorJuego.cs
+- ConsolaUIViborita.cs
+De igual forma se cambió el Program.cs para que nos aparezca la opción de elegir entre los dos juegos
